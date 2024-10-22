@@ -8,6 +8,5 @@ def clean_data(data_file="data.csv"):
     df["Tickets"].fillna(method="ffill", inplace=True)
     df.to_csv("clean-data.csv", index=False)
 
-
 if __name__ == "__main__":
     clean_data(data_file="data.csv")
