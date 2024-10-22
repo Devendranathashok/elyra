@@ -4,7 +4,6 @@ import pandas as pd
 import re
 from datetime import datetime
 
-
 def ingest_data(data_folder="/data"):
     
     print("Commencing data ingestion.")
